@@ -27,4 +27,15 @@ print("I like to eat " + name)
 print(fruitNames[1])
 print(fruitNames[0])
 
+//Part 8, Start of Assignment #4
+var favoriteNumber = [1,2,3,4,5]
+print(favoriteNumber)
+print("My favorite number \(favoriteNumber)")
+for number in favoriteNumber
+{
+print ("My favorite number" , number)
+}
 
+//Part 9
+let removed = favoriteNumber.remove (at: 2)
+print(favoriteNumber)
